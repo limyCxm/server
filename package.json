@@ -1,25 +1,20 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "for blog",
-  "main": "index.js",
+  "name": "projectName",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/limyCxm/server.git"
-  },
-  "keywords": [
-    "nodejs"
-  ],
-  "author": "chengxueming",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/limyCxm/server/issues"
-  },
-  "homepage": "https://github.com/limyCxm/server#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "mysql": "^2.11.1"
   }
 }
